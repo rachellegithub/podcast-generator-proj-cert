@@ -4,7 +4,7 @@ FROM ubuntu:latest
 #install dependecies
 RUN apt-get update && apt-get install -y \
     python3.14 \
-    python3-pip
+    python3-pip \
     git
 
 RUN pip3 install pyYAML
